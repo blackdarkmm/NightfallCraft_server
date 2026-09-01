@@ -283,4 +283,4 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}       # ✅ 內建 token，有觸發本 repo 的權限
           repository: ${{ github.repository }}      # ✅ 自己的 repo
-          event-type: 1.21.6-farbic-server-cloud-backup-zerotier-vpn
+          event-type: 1.20.1-forge-server-zerotier-vpn
