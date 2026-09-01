@@ -57,7 +57,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # 💡 請記得換成你目前這個 Workflow 的 yml 檔名（例如 main.yml）
           workflow: start.yml 
-          name: mc-part
+          name: mc-parts
           workflow_conclusion: success
           path: ./
           # 如果沒找到，只警告不報錯
